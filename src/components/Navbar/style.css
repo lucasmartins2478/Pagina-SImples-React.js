@@ -1,0 +1,25 @@
+.nav-bar{
+  display: flex;
+  height: 100px;
+  width: 80%;
+  gap: 3rem;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.nav-bar .sign-up-btn{
+  height: 2rem;
+  width: 7rem;
+  border-radius: 18px;
+  border: solid 1px #7395de;
+  background-color: transparent;
+}
+.nav-bar .nav-links{
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+.nav-bar .nav-links li a{
+  text-decoration: none;
+  white-space: nowrap;
+}
